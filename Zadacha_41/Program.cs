@@ -34,8 +34,6 @@ int AboveZero(int[] anyArray)
     return count;
 }
 
-int[] array = GetArray(arrayNumbers);
-int count = AboveZero(array);
-Console.WriteLine($"Количество чисел больше нуля: {count}");
+Console.WriteLine($"Количество чисел больше нуля: {AboveZero(GetArray(arrayNumbers))}");
 
 
